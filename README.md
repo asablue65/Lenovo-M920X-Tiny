@@ -35,8 +35,8 @@ Opencore EFI for M920X Tiny
 
 ## EFI layout
 1. Download EFI, Opencore and all kexts needed
-2. Change config.plist with your own SMBios choice（iMa20,1)
-3. Must have boot-args: -amfipass, csr-active-config to "03080000"
-4. Reboot
-
-* No OCLP root patch required
+2. Instead of OCLP for modern wifi root patch, this build uses 
+		SimpleBCM.kext from https://github.com/laobamac/SimpleMCM
+3. Change config.plist with your own SMBios choice（iMa20,1)
+4. Must have boot-args: -amfipass, csr-active-config to "03080000"
+5. Reboot
