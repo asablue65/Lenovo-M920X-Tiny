@@ -34,8 +34,9 @@ Opencore EFI for M920X Tiny
 4. UEFI Only
 
 ## EFI layout
-1. Download EFI, Opencore and all kexts needed
-2. Instead of OCLP for modern wifi root patch, this build uses 
+1. Download EFI, Opencore and all kexts needed, IF you don't clearly know how,
+		try using OpCore-Simply from https://github.com/lzhoang2801/OpCore-Simplify
+2. Instead of using OCLP for modern wifi root patch, this build used 
 		SimpleBCM.kext from https://github.com/laobamac/SimpleMCM
 3. Change config.plist with your own SMBios choice（iMa20,1)
 4. Must have boot-args: -amfipass
