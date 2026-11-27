@@ -24,8 +24,9 @@ Opencore EFI for M920X Tiny
 * Handoff: YES
 * HD Audio: YES
 * Computer Speaker: YES
-* Audio in for MIC: NO
+* Audio in for MIC: YES
 * USB: All YES
+* Bootup Chime: YES
 
 # Other Settings
 1. SecureBoot Mode: Disabled
@@ -39,5 +40,5 @@ Opencore EFI for M920X Tiny
 2. Instead of using OCLP for modern wifi root patch, this build used 
 		SimpleBCM.kext from https://github.com/laobamac/SimpleMCM
 3. Change config.plist with your own SMBios choice（iMa20,1)
-4. Must have boot-args: -amfipass
+4. Must have boot-args: -amfipassbeta
 5. Reboot
